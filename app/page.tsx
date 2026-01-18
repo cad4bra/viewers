@@ -70,40 +70,40 @@ export default async function HomePage() {
                 title: 'Visual Advertising',
                 description: 'Create compelling visual campaigns that capture attention and drive engagement through innovative design and strategic placement.',
                 order: 1,
-                collectionId: '',
-                collectionName: '',
-                created: '',
-                updated: '',
+                collectionId: 'services',
+                collectionName: 'services',
+                created: new Date().toISOString(),
+                updated: new Date().toISOString(),
               }} />
               <ServiceCard service={{
                 id: '2',
                 title: 'Branding & Identity',
                 description: 'Develop distinctive brand identities that reflect your values and connect with your target market effectively.',
                 order: 2,
-                collectionId: '',
-                collectionName: '',
-                created: '',
-                updated: '',
+                collectionId: 'services',
+                collectionName: 'services',
+                created: new Date().toISOString(),
+                updated: new Date().toISOString(),
               }} />
               <ServiceCard service={{
                 id: '3',
                 title: 'Digital Display Solutions',
                 description: 'Leverage cutting-edge digital display technology to showcase your content in stunning detail and clarity.',
                 order: 3,
-                collectionId: '',
-                collectionName: '',
-                created: '',
-                updated: '',
+                collectionId: 'services',
+                collectionName: 'services',
+                created: new Date().toISOString(),
+                updated: new Date().toISOString(),
               }} />
               <ServiceCard service={{
                 id: '4',
                 title: 'Future-Ready Tech Services',
                 description: 'Stay ahead with innovative technology solutions that integrate the latest advancements for forward-thinking experiences.',
                 order: 4,
-                collectionId: '',
-                collectionName: '',
-                created: '',
-                updated: '',
+                collectionId: 'services',
+                collectionName: 'services',
+                created: new Date().toISOString(),
+                updated: new Date().toISOString(),
               }} />
             </div>
           )}
@@ -149,10 +149,10 @@ export default async function HomePage() {
                 category: 'Advertising',
                 featured: true,
                 order: 1,
-                collectionId: '',
-                collectionName: '',
-                created: '',
-                updated: '',
+                collectionId: 'showcase',
+                collectionName: 'showcase',
+                created: new Date().toISOString(),
+                updated: new Date().toISOString(),
               }} />
               <ShowcaseCard item={{
                 id: '2',
@@ -161,10 +161,10 @@ export default async function HomePage() {
                 category: 'Branding',
                 featured: true,
                 order: 2,
-                collectionId: '',
-                collectionName: '',
-                created: '',
-                updated: '',
+                collectionId: 'showcase',
+                collectionName: 'showcase',
+                created: new Date().toISOString(),
+                updated: new Date().toISOString(),
               }} />
               <ShowcaseCard item={{
                 id: '3',
@@ -173,10 +173,10 @@ export default async function HomePage() {
                 category: 'Technology',
                 featured: true,
                 order: 3,
-                collectionId: '',
-                collectionName: '',
-                created: '',
-                updated: '',
+                collectionId: 'showcase',
+                collectionName: 'showcase',
+                created: new Date().toISOString(),
+                updated: new Date().toISOString(),
               }} />
             </div>
           )}

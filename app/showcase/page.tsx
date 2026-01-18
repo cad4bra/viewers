@@ -8,6 +8,10 @@ export default async function ShowcasePage() {
   const defaultItems = [
     {
       id: '1',
+      collectionId: 'showcase',
+      collectionName: 'showcase',
+      created: new Date().toISOString(),
+      updated: new Date().toISOString(),
       title: 'Digital Campaign Launch',
       description: 'A comprehensive visual advertising campaign that increased brand awareness by 300%. Featuring cutting-edge design and strategic placement.',
       category: 'Advertising',
@@ -16,6 +20,10 @@ export default async function ShowcasePage() {
     },
     {
       id: '2',
+      collectionId: 'showcase',
+      collectionName: 'showcase',
+      created: new Date().toISOString(),
+      updated: new Date().toISOString(),
       title: 'Brand Identity Transformation',
       description: 'Complete rebrand for a tech startup, including logo design, brand guidelines, and digital assets that reflect innovation and forward-thinking.',
       category: 'Branding',
@@ -24,6 +32,10 @@ export default async function ShowcasePage() {
     },
     {
       id: '3',
+      collectionId: 'showcase',
+      collectionName: 'showcase',
+      created: new Date().toISOString(),
+      updated: new Date().toISOString(),
       title: 'Interactive Display Installation',
       description: 'Large-scale interactive digital display that engages audiences through motion-sensing technology and immersive visual experiences.',
       category: 'Technology',
@@ -32,6 +44,10 @@ export default async function ShowcasePage() {
     },
     {
       id: '4',
+      collectionId: 'showcase',
+      collectionName: 'showcase',
+      created: new Date().toISOString(),
+      updated: new Date().toISOString(),
       title: 'Retail Visual Experience',
       description: 'Transformative in-store visual displays that blend physical and digital experiences, enhancing customer engagement and sales.',
       category: 'Retail',
@@ -40,6 +56,10 @@ export default async function ShowcasePage() {
     },
     {
       id: '5',
+      collectionId: 'showcase',
+      collectionName: 'showcase',
+      created: new Date().toISOString(),
+      updated: new Date().toISOString(),
       title: 'Event Visual Production',
       description: 'Complete visual production for major corporate events, including stage design, video walls, and real-time visual effects.',
       category: 'Events',
@@ -48,6 +68,10 @@ export default async function ShowcasePage() {
     },
     {
       id: '6',
+      collectionId: 'showcase',
+      collectionName: 'showcase',
+      created: new Date().toISOString(),
+      updated: new Date().toISOString(),
       title: 'Digital Signage Network',
       description: 'Nationwide digital signage network with centralized management and dynamic content delivery across multiple locations.',
       category: 'Technology',
