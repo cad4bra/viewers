@@ -27,7 +27,8 @@ npm install
 2. **Set up PocketBase:**
    - Download PocketBase from [pocketbase.io](https://pocketbase.io)
    - Run PocketBase: `./pocketbase serve` (or `pb serve` if installed globally)
-   - Access admin UI at: http://127.0.0.1:8090/_/
+   - **Access admin panel at: http://127.0.0.1:8090/_/** (see `POCKETBASE_ADMIN.md` for details)
+   - Create an admin account when first accessing the admin panel
    - Create the following collections via PocketBase admin UI:
      - `project_content` - See schema in `/lib/pocketbase/schema.md`
      - `services` - See schema in `/lib/pocketbase/schema.md`
