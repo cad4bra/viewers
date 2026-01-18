@@ -1,0 +1,45 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  body {
+    @apply text-viewers-gray-100 antialiased;
+  }
+}
+
+@layer utilities {
+  .text-gradient {
+    @apply bg-gradient-to-r from-viewers-blue-300 via-viewers-blue-400 to-viewers-blue-300 bg-clip-text text-transparent;
+  }
+  
+  .glow-effect {
+    @apply shadow-glow;
+  }
+  
+  .glow-effect-lg {
+    @apply shadow-glow-lg;
+  }
+}
+
+/* Smooth scrolling */
+html {
+  scroll-behavior: smooth;
+}
+
+/* Custom scrollbar */
+::-webkit-scrollbar {
+  width: 10px;
+}
+
+::-webkit-scrollbar-track {
+  @apply bg-viewers-gray-900;
+}
+
+::-webkit-scrollbar-thumb {
+  @apply bg-viewers-gray-700 rounded-full;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  @apply bg-viewers-gray-600;
+}
